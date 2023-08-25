@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@500&family=Michroma&family=Audiowide');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Audiowide', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgb(221, 212, 212);
+    margin: 0 360px;
+}
+.calculator{
+    border: 2px solid #4a4d57;
+    height: 90%;
+    width: 60%;
+    padding: 20px;
+    background:linear-gradient(to top,rgb(37, 37, 98),rgb(9, 6, 204));
+}
+input{
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    text-align: right;
+    width: 50vh;
+    background: transparent;
+    box-shadow: inset 1px 1px 2px  rgba(241, 236, 236, 1.0);
+    font-size: 30px;
+    cursor: pointer;
+    color:white;
+}
+input::placeholder{
+    color: #ffffff;
+}
+button{
+    padding: 10px;
+    height: 10vh;
+    width: 10vh;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(61, 84, 210);
+    cursor: pointer;
+
+    color: #ffffff;
+    font-size: 24px;
+}
+.equalBtn{
+    background: #fb7c14;
+}
+.btn2{
+    color: #6dfae6;
+}
